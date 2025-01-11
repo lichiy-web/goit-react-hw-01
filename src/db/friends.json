@@ -28,5 +28,23 @@
         "name": "Poly",
         "isOnline": false,
         "id": 1284
+    },
+    {
+        "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998804.png",
+        "name": "Tiger",
+        "isOnline": true,
+        "id": 1974
+    },
+    {
+        "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998813.png",
+        "name": "Zebra",
+        "isOnline": false,
+        "id": 1596
+    },
+    {
+        "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998659.png",
+        "name": "Giraffe",
+        "isOnline": false,
+        "id": 1395
     }
 ]

@@ -1,5 +1,9 @@
 .friend-list {
-    display: flex;
-    list-style-type: none;
+    display: inline-flex;
     width: 710px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    list-style-type: none;
+    /* gap: 10px;     */
 }

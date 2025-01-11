@@ -7,6 +7,12 @@ const FriendList = ({ friends }) => {
       {friends.map(friend => {
         return <FriendListItem {...friend} key={friend.id} />;
       })}
+      {/* {friends.map(friend => {
+        return <FriendListItem {...friend} key={friend.id} />;
+      })}
+      {friends.map(friend => {
+        return <FriendListItem {...friend} key={friend.id} />;
+      })} */}
     </ul>
   );
 };

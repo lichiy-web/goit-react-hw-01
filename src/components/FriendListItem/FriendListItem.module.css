@@ -1,0 +1,44 @@
+.friend-list-item {
+    --items-in-row: 5;
+    --gap-between-items: .95em;
+
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 1em .5em;
+    width: calc( (100% - var(--gap-between-items) * (var(--items-in-row) - 1)) / var(--items-in-row) );
+    margin-bottom: var(--gap-between-items);
+    margin-right: var(--gap-between-items);    
+}
+
+.friend-list-item:hover {
+    cursor: pointer;
+    background-color: #eaeaea;
+}
+
+.friend-list-item:nth-child(5n) {
+    margin-right: 0;
+}
+
+.friend-list-item-avatar {
+    width: 85%;
+    margin-bottom: .7em;    
+}
+
+.friend-list-item-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.friend-list-item-status {
+    line-height: 1.3;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    color:#b82422;
+}
+
+.friend-list-item-status.is-online {
+ color: #237723; 
+}
